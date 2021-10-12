@@ -25,16 +25,10 @@
 		<div class="feature">
 			<div class="feature-discription">
 				<img src="/dnd.png" alt="feature icon" class="feature-icon" />
-				<h2>Drag and Drop</h2>
+				<h2>About</h2>
 				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem quasi
-					recusandae tenetur placeat beatae assumenda ipsa illo, inventore neque fugit quibusdam
-					corrupti eius ea provident amet nisi doloremque velit eligendi, numquam est tempore
-					voluptatem voluptatibus facere! Fuga consequatur eum id reprehenderit est illo quidem
-					voluptatibus obcaecati nobis tempore numquam, error optio illum, in molestiae expedita
-					consectetur. Eius tempora expedita quam. Fugit illo, nostrum delectus tempore ipsum
-					provident eveniet voluptas praesentium corrupti officia sequi ratione animi sapiente
-					dolores, maxime blanditiis!
+					<strong><em>Sylph</em></strong> is a prototyping tool for Svelte web applications. 
+          With its convenient drag-and-drop interface, component customizer, real-time code preview, and real-time site preview, Sylph allows users to quickly prototype and develop the architecture of their Svelte application.
 				</p>
 			</div>
 			<div class="feature-img">
@@ -47,58 +41,15 @@
 			</div>
 			<div class="feature-discription">
 				<img src="/dnd.png" alt="feature icon" class="feature-icon" />
-				<h2>Drag and Drop</h2>
+				<h2>Svelte Prototyping, Reimagined</h2>
 				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem quasi
-					recusandae tenetur placeat beatae assumenda ipsa illo, inventore neque fugit quibusdam
-					corrupti eius ea provident amet nisi doloremque velit eligendi, numquam est tempore
-					voluptatem voluptatibus facere! Fuga consequatur eum id reprehenderit est illo quidem
-					voluptatibus obcaecati nobis tempore numquam, error optio illum, in molestiae expedita
-					consectetur. Eius tempora expedita quam. Fugit illo, nostrum delectus tempore ipsum
-					provident eveniet voluptas praesentium corrupti officia sequi ratione animi sapiente
-					dolores, maxime blanditiis!
+          Harnessing the power of Electron, TypeScript, and Svelte, <strong><em>Sylph</em></strong> provides an open-source solution
+          for the fast-growing Svelte community's prototyping needs. 
+          Sylph is available for Mac and Windows operating systems.
 				</p>
 			</div>
 		</div>
-		<div class="feature">
-			<div class="feature-discription">
-				<img src="/dnd.png" alt="feature icon" class="feature-icon" />
-				<h2>Drag and Drop</h2>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem quasi
-					recusandae tenetur placeat beatae assumenda ipsa illo, inventore neque fugit quibusdam
-					corrupti eius ea provident amet nisi doloremque velit eligendi, numquam est tempore
-					voluptatem voluptatibus facere! Fuga consequatur eum id reprehenderit est illo quidem
-					voluptatibus obcaecati nobis tempore numquam, error optio illum, in molestiae expedita
-					consectetur. Eius tempora expedita quam. Fugit illo, nostrum delectus tempore ipsum
-					provident eveniet voluptas praesentium corrupti officia sequi ratione animi sapiente
-					dolores, maxime blanditiis!
-				</p>
-			</div>
-			<div class="feature-img">
-				<img src="/sylph-screen.png" alt="feature screenshot" />
-			</div>
-		</div>
-		<div class="feature">
-			<div class="feature-img">
-				<img src="/sylph-screen.png" alt="feature screenshot" />
-			</div>
-			<div class="feature-discription">
-				<img src="/dnd.png" alt="feature icon" class="feature-icon" />
-				<h2>Drag and Drop</h2>
-				<p>
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem quasi
-					recusandae tenetur placeat beatae assumenda ipsa illo, inventore neque fugit quibusdam
-					corrupti eius ea provident amet nisi doloremque velit eligendi, numquam est tempore
-					voluptatem voluptatibus facere! Fuga consequatur eum id reprehenderit est illo quidem
-					voluptatibus obcaecati nobis tempore numquam, error optio illum, in molestiae expedita
-					consectetur. Eius tempora expedita quam. Fugit illo, nostrum delectus tempore ipsum
-					provident eveniet voluptas praesentium corrupti officia sequi ratione animi sapiente
-					dolores, maxime blanditiis!
-				</p>
-			</div>
-		</div>
-	</section>
+  </section>
 	<section class="download">
 		<div>
 			<h1>Download Sylph</h1>
