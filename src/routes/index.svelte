@@ -24,7 +24,8 @@
 	<section class="features">
 		<div class="feature">
 			<div class="feature-discription">
-				<img src="" alt="feature icon" />
+				<img src="/dnd.png" alt="feature icon" class="feature-icon" />
+				<h2>Drag and Drop</h2>
 				<p>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem quasi
 					recusandae tenetur placeat beatae assumenda ipsa illo, inventore neque fugit quibusdam
@@ -37,15 +38,16 @@
 				</p>
 			</div>
 			<div class="feature-img">
-				<img src="" alt="feature screenshot" />
+				<img src="/sylph-screen.png" alt="feature screenshot" />
 			</div>
 		</div>
 		<div class="feature">
 			<div class="feature-img">
-				<img src="" alt="feature screenshot" />
+				<img src="/sylph-screen.png" alt="feature screenshot" />
 			</div>
 			<div class="feature-discription">
-				<img src="" alt="feature icon" />
+				<img src="/dnd.png" alt="feature icon" class="feature-icon" />
+				<h2>Drag and Drop</h2>
 				<p>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem quasi
 					recusandae tenetur placeat beatae assumenda ipsa illo, inventore neque fugit quibusdam
@@ -60,7 +62,8 @@
 		</div>
 		<div class="feature">
 			<div class="feature-discription">
-				<img src="" alt="feature icon" />
+				<img src="/dnd.png" alt="feature icon" class="feature-icon" />
+				<h2>Drag and Drop</h2>
 				<p>
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem quasi
 					recusandae tenetur placeat beatae assumenda ipsa illo, inventore neque fugit quibusdam
@@ -73,11 +76,34 @@
 				</p>
 			</div>
 			<div class="feature-img">
-				<img src="" alt="feature screenshot" />
+				<img src="/sylph-screen.png" alt="feature screenshot" />
+			</div>
+		</div>
+		<div class="feature">
+			<div class="feature-img">
+				<img src="/sylph-screen.png" alt="feature screenshot" />
+			</div>
+			<div class="feature-discription">
+				<img src="/dnd.png" alt="feature icon" class="feature-icon" />
+				<h2>Drag and Drop</h2>
+				<p>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem quasi
+					recusandae tenetur placeat beatae assumenda ipsa illo, inventore neque fugit quibusdam
+					corrupti eius ea provident amet nisi doloremque velit eligendi, numquam est tempore
+					voluptatem voluptatibus facere! Fuga consequatur eum id reprehenderit est illo quidem
+					voluptatibus obcaecati nobis tempore numquam, error optio illum, in molestiae expedita
+					consectetur. Eius tempora expedita quam. Fugit illo, nostrum delectus tempore ipsum
+					provident eveniet voluptas praesentium corrupti officia sequi ratione animi sapiente
+					dolores, maxime blanditiis!
+				</p>
 			</div>
 		</div>
 	</section>
-	<section class="download">download</section>
+	<section class="download">
+		<div>
+			<h1>Download Sylph</h1>
+		</div>
+	</section>
 	<section class="dev-section">
 		<h1>Sylph Contributors</h1>
 		<div class="devs">
@@ -117,6 +143,8 @@
 		background-color: #1e1e1e;
 		width: 100%;
 		height: 400px;
+		margin: 30px 0 10px 0;
+		border-radius: 30% 30% 0 0;
 	}
 	.dev-section h1 {
 		color: whitesmoke;
@@ -125,6 +153,19 @@
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
+	}
+	.download {
+		width: 100%;
+		height: 500px;
+		background-color: #1e1e1e;
+	}
+	.download div {
+		padding: 20px;
+		margin: 40px;
+	}
+	.download h1 {
+		color: whitesmoke;
+		font-weight: 800;
 	}
 	.title-head {
 		display: grid;
@@ -171,6 +212,38 @@
 	}
 	.feature {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
+		align-items: center;
+		background-color: #282828;
+		margin: 20px 10px;
+	}
+	.feature-discription {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		margin: 20px;
+	}
+	.feature-discription p {
+		color: darkgray;
+		font-size: 1.3em;
+	}
+	.feature-discription h2 {
+		color: whitesmoke;
+		font-size: 2em;
+		font-weight: 700;
+	}
+	.feature-img {
+		justify-content: center;
+		align-items: center;
+	}
+	.feature-img img {
+		height: 300px;
+		padding: 30px;
+		margin: 20x;
+	}
+	.feature-icon {
+		width: 200px;
 	}
 </style>
