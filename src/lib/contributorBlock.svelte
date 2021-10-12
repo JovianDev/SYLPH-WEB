@@ -11,7 +11,7 @@
 		<img src={devImg} alt={name} />
 	</div>
 	<h4>{name}</h4>
-	<p>SoftWare Engineer</p>
+	<p>Software Engineer</p>
 	<div class="dev-links">
 		<a href={linkedin} target="__blank">
 			<svg

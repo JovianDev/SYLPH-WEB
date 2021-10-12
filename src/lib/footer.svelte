@@ -1,6 +1,6 @@
 <footer>
 	<div class="copyw">
-		<h2>Copywrite 2021 Sylph</h2>
+		<h2>Copyright © 2021 Sylph</h2>
 	</div>
 </footer>
 
