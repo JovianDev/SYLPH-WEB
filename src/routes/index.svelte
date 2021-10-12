@@ -28,7 +28,7 @@
 				<h2>About</h2>
 				<p>
 					<strong><em>Sylph</em></strong> is a prototyping tool for Svelte web applications. 
-          With its convenient drag-and-drop interface, component customizer, real-time code preview, and real-time site preview, Sylph allows users to quickly prototype and develop the architecture of their Svelte application.
+          With its convenient drag-and-drop interface, component customizer, real-time code preview, and real-time site preview, Sylph allows users to quickly prototype and develop the architecture of their Svelte applications.
 				</p>
 			</div>
 			<div class="feature-img">
