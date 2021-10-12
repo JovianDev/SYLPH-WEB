@@ -1,23 +1,25 @@
 <script>
 	import { page } from '$app/stores';
 	import DownloadBtn from './downloadBtn.svelte';
-	import { userOS } from '../stores/store';
+	import UAParser from 'ua-parser-js';
+	let OS;
 	let sylphVersion;
+	let parser = new UAParser();
 
-	$: {
-		if ($userOS === 'MacOs') {
-			sylphVersion =
-				'https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-MacOS/Sylph-1.0.0.dmg';
-		}
-		if ($userOS === 'Windows') {
-			sylphVersion =
-				'https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-testing/Sylph.Setup.1.0.0.exe';
-		}
+	OS = parser.getOS();
+
+	if (OS?.name === 'Mac OS') {
+		sylphVersion =
+			'https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-MacOS/Sylph-1.0.0.dmg';
+	}
+	if (OS?.name === 'Windows') {
+		sylphVersion =
+			'https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-testing/Sylph.Setup.1.0.0.exe';
 	}
 </script>
 
 <header>
-	<img src="/sylphLogoPossibility.png" />
+	<img src="/sylphLogoPossibility.png" alt="Sylph logo" />
 	<nav>
 		<ul>
 			<li class:active={$page.path === '/'}>
@@ -33,7 +35,7 @@
 	</nav>
 	<div class="dl-btn">
 		<form action={sylphVersion} method="get" target="_blank">
-			<DownloadBtn />
+			<DownloadBtn OS={OS.name} />
 		</form>
 	</div>
 </header>

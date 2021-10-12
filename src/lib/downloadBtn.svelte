@@ -1,11 +1,15 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <script>
-	import { userOS } from '../stores/store';
+	export let OS;
 </script>
 
 <button class="download-btn">
+	<i class="fa fa-download" />
 	<span>
-		<i class="fa fa-download" />
-		{`Download for ${$userOS}`}
+		{`Download for ${OS}`}
 	</span>
 </button>
 

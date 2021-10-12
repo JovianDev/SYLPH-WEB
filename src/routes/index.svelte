@@ -21,14 +21,27 @@
 			<img src="/sylph-screen.png" alt="sylph screen shot" />
 		</div>
 	</section>
+	<section class="yt-video">
+		<iframe
+			width="560"
+			height="315"
+			src="https://www.youtube.com/embed/uK2RnIzrQ0M"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen
+		/>
+	</section>
 	<section class="features">
 		<div class="feature">
 			<div class="feature-discription">
 				<img src="/dnd.png" alt="feature icon" class="feature-icon" />
 				<h2>About</h2>
 				<p>
-					<strong><em>Sylph</em></strong> is a prototyping tool for Svelte web applications. 
-          With its convenient drag-and-drop interface, component customizer, real-time code preview, and real-time site preview, Sylph allows users to quickly prototype and develop the architecture of their Svelte applications.
+					<strong><em>Sylph</em></strong> is a prototyping tool for Svelte web applications. With its
+					convenient drag-and-drop interface, component customizer, real-time code preview, and real-time
+					site preview, Sylph allows users to quickly prototype and develop the architecture of their
+					Svelte applications.
 				</p>
 			</div>
 			<div class="feature-img">
@@ -43,13 +56,13 @@
 				<img src="/dnd.png" alt="feature icon" class="feature-icon" />
 				<h2>Svelte Prototyping, Reimagined</h2>
 				<p>
-          Harnessing the power of Electron, TypeScript, and Svelte, <strong><em>Sylph</em></strong> provides an open-source solution
-          for the fast-growing Svelte community's prototyping needs. 
-          Sylph is available for Mac and Windows operating systems.
+					Harnessing the power of Electron, TypeScript, and Svelte, <strong><em>Sylph</em></strong> provides
+					an open-source solution for the fast-growing Svelte community's prototyping needs. Sylph is
+					available for Mac and Windows operating systems.
 				</p>
 			</div>
 		</div>
-  </section>
+	</section>
 	<section class="download">
 		<div>
 			<h1>Download Sylph</h1>
@@ -196,5 +209,12 @@
 	}
 	.feature-icon {
 		width: 200px;
+	}
+	.yt-video {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 30px;
+		background-color: #1e1e1e;
 	}
 </style>

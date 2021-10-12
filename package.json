@@ -17,5 +17,8 @@
     "prettier-plugin-svelte": "^2.4.0",
     "svelte": "^3.42.6"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "ua-parser-js": "^0.7.28"
+  }
 }
